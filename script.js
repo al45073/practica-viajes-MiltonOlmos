@@ -7,10 +7,11 @@ function calcularIndividual() {
 
     // 1. LÓGICA DE SELECCIÓN DE VUELO
     if (formIndividual.vuelo.value == "sin-avion") {
-        total += 999;
-    } 
-    else if (formIndividual.vuelo.value == "ida") {
-        total += 2499;
+    total += 999;
+    }   else if (formIndividual.vuelo.value == "ida") {
+    total += 2499;
+    }   else if (formIndividual.vuelo.value == "ida-vuelta") {
+    total += 5999;
     }
     // === REQUISITO 3A: Programar la condición para "ida-vuelta" ($5,999 MXN) ===
 
