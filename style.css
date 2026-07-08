@@ -22,7 +22,7 @@ body {
 .panoramic-image {
     width: 60%;
     height: 120px;
-    background: linear-gradient(45deg, #3b82f6, #10b981);
+    background: linear-gradient(45deg, #3b82f6, #0cebeb);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -50,15 +50,16 @@ body {
 
 /* === REQUISITO 2: EL ALUMNO DEBE CORREGIR ESTO === */
 .countries-bar {
-    background-color: #10b981;
+    background-color: #1391db;
     color: white;
-    text-align: center;
     padding: 12px;
     font-size: 16px;
     font-weight: bold;
-    
-    /* Error intencional: Cambiar a flex para que se alinee horizontalmente */
-    display: block; 
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .client-data {
