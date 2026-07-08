@@ -21,14 +21,12 @@ body {
 
 .panoramic-image {
     width: 60%;
-    height: 120px;
-    background: linear-gradient(45deg, #3b82f6, #0cebeb);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
+    height: 220px;
+    background-image: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     border-radius: 8px;
-    font-weight: bold;
 }
 
 .logo-section {
